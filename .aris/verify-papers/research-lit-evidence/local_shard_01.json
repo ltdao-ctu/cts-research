@@ -112,3 +112,4 @@
     "source_excerpt": "Binary nerve Dice was 0.274±0.087 on U1, 0.407±0.124 on U2, and 0.388±0.094 on Combined U1+U2 (+0.114 regularization gain over U1). Naive 4-class segmentation (artery, vein, nerve, muscle) severely degraded nerve Dice by -61% on U1 (to 0.107), -11% on U2 (to 0.363), and -9% on Combined (to 0.355). Nerve mask pixel area correlated positively with Dice (Pearson r=0.587, p=9.0e-6)."
   }
 ]
+

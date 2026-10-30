@@ -98,3 +98,4 @@
     "source_excerpt": "Phase 1 localized Carpal Bones (R1) as the single most discriminative region (mIoU=0.722, AP50=0.965), reducing MAE from 7.3 months (full image L1) to 6.1 months (L1) and 5.3 months (LDL+ER), outperforming Full Hand (5.6 mo) and Metacarpals (6.2 mo). Multi-region ensemble (H+R1+R2 or H+R1+E) with LDL achieved 4.3 months MAE without any bounding-box or keypoint annotations."
   }
 ]
+

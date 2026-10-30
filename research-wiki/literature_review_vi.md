@@ -51,3 +51,17 @@ Một cuộc tranh luận trọng tâm trong y văn là liệu chẩn đoán CTS
 - **`G4` (Hợp nhất đầu-cuối đa phương thức giữa Hình ảnh và Dạng sóng Điện chẩn đoán thô):** Các nghiên cứu hiện tại chủ yếu xử lý ảnh siêu âm và tín hiệu sóng dẫn truyền thần kinh (NCS) tách biệt nhau thay vì học biểu diễn liên phương thức (cross-modal representation learning) để phân độ nặng và tiên lượng.
 - **`G5` (Kiểm chứng lâm sàng tiến cứu đa trung tâm & Dự báo quỹ đạo phục hồi dọc thời gian):** Đa số mô hình mới dừng ở phân loại chẩn đoán hồi cứu, thiếu các hệ thống hỗ trợ quyết định lâm sàng dự báo cá thể hóa hiệu quả giữa điều trị bảo tồn, giải phóng bằng kim dưới siêu âm và phẫu thuật mở/nội soi.
 
+
+
+---
+
+## 7. Phụ Lục Cập Nhật: Kiểm Toán Toàn Văn Thư Viện PDF Cục Bộ (`sources: local`, `effort: max` — 15 File PDF trong `papers/`)
+
+Toàn bộ **15 file PDF cục bộ** trong thư mục `d:/github/cts/papers/` (`L01`–`L15`: gồm 5 bài báo tạp chí bình duyệt lâm sàng/ENMG/siêu âm/nhân trắc học + 10 bài báo arXiv, tổng cộng **221 trang**) đã được đọc và trích xuất toàn văn 100% ở chế độ `effort: max` (`15/15` đạt `verified` với `confidence: high`, `hallucination_rate: 0.0`, `evidence_status: grounded_pdf`).
+
+- **Bản Tổng Quan Toàn Văn PDF Cục Bộ (Tiếng Việt, `effort: max`)**: `research-wiki/local_literature_review_vi.md`
+- **Bản Tổng Quan Toàn Văn PDF Cục Bộ (Tiếng Anh, `effort: max`)**: `research-wiki/local_literature_review.md`
+- **Dữ Liệu Bằng Chứng Toàn Văn Đóng Băng (Evidence Shards)**: `.aris/verify-papers/research-lit-evidence/local_shard_01.json`, `.aris/verify-papers/research-lit-evidence/local_shard_02.json`, và `.aris/verify-papers/research-lit-evidence/local_coverage_receipt.json`
+- **Các Bài Báo Tạp Chí Cục Bộ Mới Được Nạp Thêm Vào Wiki**:
+  - **Darol et al. (2023)** (*Acta Medica Nicomedia*, `10.53446/actamednicomedia.1195719`) -> `research-wiki/papers/darol2023_artificial_intelligence_based.md`
+  - **Yener et al. (2024)** (*J. Anat. Soc. India*, `10.4103/jasi.jasi_108_22`) -> `research-wiki/papers/yener2024_application_machine_learning.md`

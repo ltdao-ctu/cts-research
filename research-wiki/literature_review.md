@@ -44,3 +44,17 @@ A central tension in the literature is whether CTS diagnosis should rely on expl
 ### 3. Electrodiagnostic Signal Learning and Multimodal Prognosis
 On the electrodiagnostic (EDX/NCS) side, recent work has moved beyond tabular latency/amplitude thresholds (Tsamis et al., 2021; Park et al., 2021; Öten & Aygün, 2024) toward time-frequency deep learning directly on raw motor and sensory nerve conduction waveforms using STFT spectrograms and multilevel wavelet decomposition (Bakalis et al., 2024, reaching `94%–97.1%` grading accuracy). Most recently, the field has begun shifting from binary screening to 4-level NCS-anchored ultrasound grading (Malo-Urriés et al., 2026) and multicenter multimodal outcome prediction following surgical or ultrasound-guided needle release (Shi et al., 2026; Manoochehri et al., 2025).
 
+
+
+---
+
+## 7. Addendum: Deep Full-Text Local Library Audit (`sources: local`, `effort: max` — 15 Full-Text PDFs in `papers/`)
+
+A complete page-by-page (`221` pages) full-text extraction of all **15 local PDFs** in `d:/github/cts/papers/` (`L01`–`L15`: 5 peer-reviewed clinical/ENMG/ultrasound/anthropometric journal papers + 10 arXiv preprints) was executed with `effort: max` (`15/15` verified via CrossRef/arXiv with `confidence: high`, `hallucination_rate: 0.0`, `evidence_status: grounded_pdf`).
+
+- **Full English Local Literature Review (`effort: max`)**: `research-wiki/local_literature_review.md`
+- **Full Vietnamese Local Literature Review (`effort: max`)**: `research-wiki/local_literature_review_vi.md`
+- **Frozen Leaf-Readable Evidence Shards**: `.aris/verify-papers/research-lit-evidence/local_shard_01.json`, `.aris/verify-papers/research-lit-evidence/local_shard_02.json`, and `.aris/verify-papers/research-lit-evidence/local_coverage_receipt.json`
+- **Newly Ingested Local Peer-Reviewed Papers**:
+  - **Darol et al. (2023)** (*Acta Medica Nicomedia*, `10.53446/actamednicomedia.1195719`) -> `research-wiki/papers/darol2023_artificial_intelligence_based.md`
+  - **Yener et al. (2024)** (*J. Anat. Soc. India*, `10.4103/jasi.jasi_108_22`) -> `research-wiki/papers/yener2024_application_machine_learning.md`
