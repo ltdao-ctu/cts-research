@@ -1,0 +1,21 @@
+{
+  "planned_shards": ["shard-01", "shard-02", "shard-03", "shard-04"],
+  "completed_shards": ["shard-01", "shard-02", "shard-03", "shard-04"],
+  "failed_shards": [],
+  "planned_unit_ids": [
+    "p01", "p02", "p03", "p04", "p05",
+    "p06", "p07", "p08", "p09", "p10",
+    "p11", "p12", "p13", "p14", "p15",
+    "p16", "p17", "p18", "p19", "p20"
+  ],
+  "covered_unit_ids": [
+    "p01", "p02", "p03", "p04", "p05",
+    "p06", "p07", "p08", "p09", "p10",
+    "p11", "p12", "p13", "p14", "p15",
+    "p16", "p17", "p18", "p19", "p20"
+  ],
+  "uncovered_unit_ids": [],
+  "unprocessed_unit_ids": [],
+  "coverage_complete": true
+}
+

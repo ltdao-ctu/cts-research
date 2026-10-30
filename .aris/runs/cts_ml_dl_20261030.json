@@ -1,0 +1,78 @@
+{
+  "run_id": "cts_ml_dl_20261030",
+  "executor_model": "gemini-4-argon-medium",
+  "executor_family": "google",
+  "policy": {
+    "provisional_advances": false
+  },
+  "created": "2026-10-30T06:34:28Z",
+  "updated": "2026-10-30T08:43:23Z",
+  "gates": {},
+  "phases": [
+    {
+      "phase": "research-lit",
+      "status": "done",
+      "artifact": "idea-stage/IDEA_REPORT.md#literature-landscape",
+      "verdict_id": null,
+      "reviewer": null,
+      "reviewer_family": null,
+      "review_independence": null,
+      "acceptance_status": null,
+      "executor_model": "gemini-4-argon-medium",
+      "executor_family": "google",
+      "updated": "2026-10-30T08:43:23Z"
+    },
+    {
+      "phase": "idea-creator",
+      "status": "done",
+      "artifact": "idea-stage/IDEA_REPORT.md#ranked-ideas",
+      "verdict_id": null,
+      "reviewer": null,
+      "reviewer_family": null,
+      "review_independence": null,
+      "acceptance_status": null,
+      "executor_model": "gemini-4-argon-medium",
+      "executor_family": "google",
+      "updated": "2026-10-30T08:43:23Z"
+    },
+    {
+      "phase": "novelty-check",
+      "status": "done",
+      "artifact": "idea-stage/IDEA_REPORT.md#novelty-verification",
+      "verdict_id": null,
+      "reviewer": null,
+      "reviewer_family": null,
+      "review_independence": null,
+      "acceptance_status": null,
+      "executor_model": "gemini-4-argon-medium",
+      "executor_family": "google",
+      "updated": "2026-10-30T08:43:23Z"
+    },
+    {
+      "phase": "research-review",
+      "status": "pending",
+      "artifact": null,
+      "verdict_id": null,
+      "reviewer": null,
+      "reviewer_family": null,
+      "review_independence": null,
+      "acceptance_status": null,
+      "executor_model": "gemini-4-argon-medium",
+      "executor_family": "google",
+      "updated": "2026-10-30T06:34:28Z"
+    },
+    {
+      "phase": "research-refine-pipeline",
+      "status": "pending",
+      "artifact": null,
+      "verdict_id": null,
+      "reviewer": null,
+      "reviewer_family": null,
+      "review_independence": null,
+      "acceptance_status": null,
+      "executor_model": "gemini-4-argon-medium",
+      "executor_family": "google",
+      "updated": "2026-10-30T06:34:28Z"
+    }
+  ]
+}

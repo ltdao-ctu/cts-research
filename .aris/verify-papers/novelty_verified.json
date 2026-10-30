@@ -1,0 +1,18 @@
+{
+  "verdict": "PASS",
+  "hallucination_rate": 0.0,
+  "pending_rate": 0.0,
+  "warnings": [],
+  "papers": [
+    {
+      "id": "p21",
+      "status": "verified",
+      "method": "crossref",
+      "confidence": "high",
+      "reason": null,
+      "identifiers": {
+        "doi": "10.3390/app132413256"
+      }
+    }
+  ]
+}

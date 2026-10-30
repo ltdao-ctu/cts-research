@@ -1,0 +1,208 @@
+{
+  "verdict": "PASS",
+  "hallucination_rate": 0.0,
+  "pending_rate": 0.0,
+  "warnings": [],
+  "papers": [
+    {
+      "id": "p01",
+      "status": "verified",
+      "method": "arxiv",
+      "confidence": "high",
+      "reason": null,
+      "identifiers": {
+        "arxiv_id": "2402.05554"
+      }
+    },
+    {
+      "id": "p02",
+      "status": "verified",
+      "method": "crossref",
+      "confidence": "high",
+      "reason": null,
+      "identifiers": {
+        "doi": "10.1016/j.clinph.2025.03.038"
+      }
+    },
+    {
+      "id": "p03",
+      "status": "verified",
+      "method": "crossref",
+      "confidence": "high",
+      "reason": null,
+      "identifiers": {
+        "doi": "10.1016/j.ejrad.2026.113251"
+      }
+    },
+    {
+      "id": "p04",
+      "status": "verified",
+      "method": "crossref",
+      "confidence": "high",
+      "reason": null,
+      "identifiers": {
+        "doi": "10.20944/preprints202603.0234.v1"
+      }
+    },
+    {
+      "id": "p05",
+      "status": "verified",
+      "method": "crossref",
+      "confidence": "high",
+      "reason": null,
+      "identifiers": {
+        "doi": "10.1016/j.ultrasmedbio.2022.05.030"
+      }
+    },
+    {
+      "id": "p06",
+      "status": "verified",
+      "method": "crossref",
+      "confidence": "high",
+      "reason": null,
+      "identifiers": {
+        "doi": "10.1186/s13075-022-02729-6"
+      }
+    },
+    {
+      "id": "p07",
+      "status": "verified",
+      "method": "crossref",
+      "confidence": "high",
+      "reason": null,
+      "identifiers": {
+        "doi": "10.1007/s11517-022-02662-5"
+      }
+    },
+    {
+      "id": "p08",
+      "status": "verified",
+      "method": "crossref",
+      "confidence": "high",
+      "reason": null,
+      "identifiers": {
+        "doi": "10.1109/embc46164.2021.9631057"
+      }
+    },
+    {
+      "id": "p09",
+      "status": "verified",
+      "method": "crossref",
+      "confidence": "high",
+      "reason": null,
+      "identifiers": {
+        "doi": "10.1016/j.ultrasmedbio.2021.03.018"
+      }
+    },
+    {
+      "id": "p10",
+      "status": "verified",
+      "method": "crossref",
+      "confidence": "high",
+      "reason": null,
+      "identifiers": {
+        "doi": "10.1016/j.ultrasmedbio.2020.03.017"
+      }
+    },
+    {
+      "id": "p11",
+      "status": "verified",
+      "method": "crossref",
+      "confidence": "high",
+      "reason": null,
+      "identifiers": {
+        "doi": "10.1016/j.compmedimag.2019.101687"
+      }
+    },
+    {
+      "id": "p12",
+      "status": "verified",
+      "method": "crossref",
+      "confidence": "high",
+      "reason": null,
+      "identifiers": {
+        "doi": "10.1016/j.ejrad.2020.109518"
+      }
+    },
+    {
+      "id": "p13",
+      "status": "verified",
+      "method": "crossref",
+      "confidence": "high",
+      "reason": null,
+      "identifiers": {
+        "doi": "10.3390/bioengineering11020175"
+      }
+    },
+    {
+      "id": "p14",
+      "status": "verified",
+      "method": "crossref",
+      "confidence": "high",
+      "reason": null,
+      "identifiers": {
+        "doi": "10.3390/bioengineering8110181"
+      }
+    },
+    {
+      "id": "p15",
+      "status": "verified",
+      "method": "crossref",
+      "confidence": "high",
+      "reason": null,
+      "identifiers": {
+        "doi": "10.1038/s41598-021-97043-7"
+      }
+    },
+    {
+      "id": "p16",
+      "status": "verified",
+      "method": "crossref",
+      "confidence": "high",
+      "reason": null,
+      "identifiers": {
+        "doi": "10.1371/journal.pone.0300044"
+      }
+    },
+    {
+      "id": "p17",
+      "status": "verified",
+      "method": "crossref",
+      "confidence": "high",
+      "reason": null,
+      "identifiers": {
+        "doi": "10.1080/10255842.2024.2417200"
+      }
+    },
+    {
+      "id": "p18",
+      "status": "verified",
+      "method": "crossref",
+      "confidence": "high",
+      "reason": null,
+      "identifiers": {
+        "doi": "10.1186/s12891-025-09079-9"
+      }
+    },
+    {
+      "id": "p19",
+      "status": "verified",
+      "method": "crossref",
+      "confidence": "high",
+      "reason": null,
+      "identifiers": {
+        "doi": "10.1016/j.artmed.2023.102496"
+      }
+    },
+    {
+      "id": "p20",
+      "status": "verified",
+      "method": "crossref",
+      "confidence": "high",
+      "reason": null,
+      "identifiers": {
+        "doi": "10.3390/diagnostics13203280"
+      }
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+[
+  {
+    "id": "p01",
+    "arxiv_id": "2402.05554",
+    "doi": "10.1016/j.ultrasmedbio.2023.10.009",
+    "title": "One-Stop Automated Diagnostic System for Carpal Tunnel Syndrome in Ultrasound Images Using Deep Learning"
+  },
+  {
+    "id": "p02",
+    "arxiv_id": null,
+    "doi": "10.1016/j.clinph.2025.03.038",
+    "title": "Diagnosis of carpal tunnel syndrome using deep learning with comparative guidance"
+  },
+  {
+    "id": "p03",
+    "arxiv_id": null,
+    "doi": "10.1016/j.ejrad.2026.113251",
+    "title": "Explainable ultrasound-based multimodal deep learning for outcome prediction after needle release in carpal tunnel syndrome: a multicenter study"
+  },
+  {
+    "id": "p04",
+    "arxiv_id": null,
+    "doi": "10.20944/preprints202603.0234.v1",
+    "title": "Automated Ultrasound-Based Severity Classification of Carpal Tunnel Syndrome: A Deep Learning Model Validated Against Nerve Conduction Studies"
+  },
+  {
+    "id": "p05",
+    "arxiv_id": null,
+    "doi": "10.1016/j.ultrasmedbio.2022.05.030",
+    "title": "Using Deep Learning for Ultrasound Images to Diagnose Carpal Tunnel Syndrome with High Accuracy"
+  },
+  {
+    "id": "p06",
+    "arxiv_id": null,
+    "doi": "10.1186/s13075-022-02729-6",
+    "title": "Development of a convolutional neural network for the identification and the measurement of the median nerve on ultrasound images acquired at carpal tunnel level"
+  },
+  {
+    "id": "p07",
+    "arxiv_id": null,
+    "doi": "10.1007/s11517-022-02662-5",
+    "title": "A deep learning approach to median nerve evaluation in ultrasound images of carpal tunnel inlet"
+  },
+  {
+    "id": "p08",
+    "arxiv_id": null,
+    "doi": "10.1109/EMBC46164.2021.9631057",
+    "title": "Learning-Based Median Nerve Segmentation From Ultrasound Images For Carpal Tunnel Syndrome Evaluation"
+  },
+  {
+    "id": "p09",
+    "arxiv_id": null,
+    "doi": "10.1016/j.ultrasmedbio.2021.03.018",
+    "title": "Automated Segmentation of the Median Nerve in the Carpal Tunnel using U-Net"
+  },
+  {
+    "id": "p10",
+    "arxiv_id": null,
+    "doi": "10.1016/j.ultrasmedbio.2020.03.017",
+    "title": "DeepNerve: A New Convolutional Neural Network for the Localization and Segmentation of the Median Nerve in Ultrasound Image Sequences"
+  },
+  {
+    "id": "p11",
+    "arxiv_id": null,
+    "doi": "10.1016/j.compmedimag.2019.101687",
+    "title": "MNT-DeepSL: Median nerve tracking from carpal tunnel ultrasound images with deep similarity learning and analysis on continuous wrist motions"
+  },
+  {
+    "id": "p12",
+    "arxiv_id": null,
+    "doi": "10.1016/j.ejrad.2020.109518",
+    "title": "Accurate automated diagnosis of carpal tunnel syndrome using radiomics features with ultrasound images: A comparison with radiologists' assessment"
+  },
+  {
+    "id": "p13",
+    "arxiv_id": null,
+    "doi": "10.3390/bioengineering11020175",
+    "title": "Carpal Tunnel Syndrome Automated Diagnosis: A Motor vs. Sensory Nerve Conduction-Based Approach"
+  },
+  {
+    "id": "p14",
+    "arxiv_id": null,
+    "doi": "10.3390/bioengineering8110181",
+    "title": "Automatic Electrodiagnosis of Carpal Tunnel Syndrome Using Machine Learning"
+  },
+  {
+    "id": "p15",
+    "arxiv_id": null,
+    "doi": "10.1038/s41598-021-97043-7",
+    "title": "Machine Learning-Based Approach for Disease Severity Classification of Carpal Tunnel Syndrome"
+  },
+  {
+    "id": "p16",
+    "arxiv_id": null,
+    "doi": "10.1371/journal.pone.0300044",
+    "title": "Carpal Tunnel Syndrome Prediction with Machine Learning Algorithms Using Anthropometric and Strength-Based Measurement"
+  },
+  {
+    "id": "p17",
+    "arxiv_id": null,
+    "doi": "10.1080/10255842.2024.2417200",
+    "title": "Use of machine learning methods in diagnosis of carpal tunnel syndrome"
+  },
+  {
+    "id": "p18",
+    "arxiv_id": null,
+    "doi": "10.1186/s12891-025-09079-9",
+    "title": "Machine learning applications in forecasting patient satisfaction and clinical outcomes after carpal tunnel release: a retrospective study"
+  },
+  {
+    "id": "p19",
+    "arxiv_id": null,
+    "doi": "10.1016/j.artmed.2023.102496",
+    "title": "Application of Deep Learning Algorithms in Automatic Sonographic Localization and Segmentation of the Median Nerve: A Systematic Review and Meta-Analysis"
+  },
+  {
+    "id": "p20",
+    "arxiv_id": null,
+    "doi": "10.3390/diagnostics13203280",
+    "title": "The Potential of Ultrasound Radiomics in Carpal Tunnel Syndrome Diagnosis: A Systematic Review and Meta-Analysis"
+  }
+]
+

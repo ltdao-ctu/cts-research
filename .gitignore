@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+
+# ARIS & Agent traces
+.aris/meta/
+.aris/traces/
+.aris/cache/
+
+# Tệp dữ liệu lớn / PDF
+papers/*.pdf
+literature/*.pdf
+*.tar.gz
+*.zip
+
+# OS
+.DS_Store
+Thumbs.db

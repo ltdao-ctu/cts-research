@@ -1,0 +1,92 @@
+[
+  {
+    "id": "L01",
+    "arxiv_id": null,
+    "doi": "10.53446/actamednicomedia.1195719",
+    "title": "Artificial Intelligence Based Rating of Carpal Tunnel Syndrome Efficacy in Clinical Diagnosis"
+  },
+  {
+    "id": "L02",
+    "arxiv_id": null,
+    "doi": "10.4103/jasi.jasi_108_22",
+    "title": "Application of Machine Learning Algorithms for Carpal Tunnel Syndrome"
+  },
+  {
+    "id": "L03",
+    "arxiv_id": null,
+    "doi": "10.3390/bioengineering8110181",
+    "title": "Automatic Electrodiagnosis of Carpal Tunnel Syndrome Using Machine Learning"
+  },
+  {
+    "id": "L04",
+    "arxiv_id": null,
+    "doi": "10.1371/journal.pone.0300044",
+    "title": "Carpal tunnel syndrome prediction with machine learning algorithms using anthropometric and strength-based measurement"
+  },
+  {
+    "id": "L05",
+    "arxiv_id": null,
+    "doi": "10.1038/s41598-021-97043-7",
+    "title": "Machine learning-based approach for disease severity classification of carpal tunnel syndrome"
+  },
+  {
+    "id": "L06",
+    "arxiv_id": "2402.05554",
+    "doi": "10.48550/arXiv.2402.05554",
+    "title": "One-Stop Automated Diagnostic System for Carpal Tunnel Syndrome in Ultrasound Images Using Deep Learning"
+  },
+  {
+    "id": "L07",
+    "arxiv_id": "2608.05619",
+    "doi": "10.48550/arXiv.2608.05619",
+    "title": "CaRing: Preventing Carpal Tunnel Syndrome based on Daily Activities from Always-Available Input Device"
+  },
+  {
+    "id": "L08",
+    "arxiv_id": "2602.00763",
+    "doi": "10.48550/arXiv.2602.00763",
+    "title": "Evaluating Deep Learning-Based Nerve Segmentation in Brachial Plexus Ultrasound Under Realistic Data Constraints"
+  },
+  {
+    "id": "L09",
+    "arxiv_id": "2603.05541",
+    "doi": "10.48550/arXiv.2603.05541",
+    "title": "Privacy-Preserving Collaborative Medical Image Segmentation Using Latent Transform Networks"
+  },
+  {
+    "id": "L10",
+    "arxiv_id": "2109.06346",
+    "doi": "10.48550/arXiv.2109.06346",
+    "title": "Physics Driven Domain Specific Transporter Framework with Attention Mechanism for Ultrasound Imaging"
+  },
+  {
+    "id": "L11",
+    "arxiv_id": "2507.07131",
+    "doi": "10.48550/arXiv.2507.07131",
+    "title": "Wrist bone segmentation in X-ray images using CT-based simulations"
+  },
+  {
+    "id": "L12",
+    "arxiv_id": "2111.04582",
+    "doi": "10.48550/arXiv.2111.04582",
+    "title": "Unconstrained Kinematic MRI Tracking of Wrist Carpal Bones"
+  },
+  {
+    "id": "L13",
+    "arxiv_id": "2305.16423",
+    "doi": "10.48550/arXiv.2305.16423",
+    "title": "Development and Stability Analysis of Carpal Kinematic Metrics from 4D Magnetic Resonance Imaging"
+  },
+  {
+    "id": "L14",
+    "arxiv_id": "2210.08734",
+    "doi": "10.48550/arXiv.2210.08734",
+    "title": "How many radiographs are needed to re-train a deep learning system for object detection?"
+  },
+  {
+    "id": "L15",
+    "arxiv_id": "2006.00202",
+    "doi": "10.48550/arXiv.2006.00202",
+    "title": "Attention-Guided Discriminative Region Localization and Label Distribution Learning for Bone Age Assessment"
+  }
+]

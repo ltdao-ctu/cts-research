@@ -1,0 +1,20 @@
+{
+  "query": "carpal tunnel syndrome machine learning deep learning",
+  "sources": ["local"],
+  "effort": "max",
+  "coverage_complete": true,
+  "planned_unit_ids": [
+    "L01", "L02", "L03", "L04", "L05",
+    "L06", "L07", "L08", "L09", "L10",
+    "L11", "L12", "L13", "L14", "L15"
+  ],
+  "covered_unit_ids": [
+    "L01", "L02", "L03", "L04", "L05",
+    "L06", "L07", "L08", "L09", "L10",
+    "L11", "L12", "L13", "L14", "L15"
+  ],
+  "shard_files": [
+    ".aris/verify-papers/research-lit-evidence/local_shard_01.json",
+    ".aris/verify-papers/research-lit-evidence/local_shard_02.json"
+  ]
+}

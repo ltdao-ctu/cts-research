@@ -1,0 +1,82 @@
+{
+  "shard_id": "shard-02",
+  "assigned_unit_ids": ["p06", "p07", "p08", "p09", "p10"],
+  "papers": [
+    {
+      "paper_id": "p06",
+      "dedup_key": "doi:10.1186/s13075-022-02729-6",
+      "title": "Development of a convolutional neural network for the identification and the measurement of the median nerve on ultrasound images acquired at carpal tunnel level",
+      "authors": ["Gianluca Smerilli", "Edoardo Cipolletta", "Gianmarco Sartini", "Erica Moscioni", "Mariachiara Di Cosmo", "Maria Cristina Fiorentino", "Sara Moccia", "Emanuele Frontoni", "Walter Grassi", "Emilio Filippucci"],
+      "year": 2022,
+      "venue": "Arthritis Research & Therapy",
+      "doi": "10.1186/s13075-022-02729-6",
+      "verification_status": "✅ verified (via crossref)",
+      "abstract": "Developed and validated a Mask R-CNN architecture for automated identification, segmentation, and cross-sectional area (CSA) measurement of the median nerve on transverse carpal tunnel ultrasound images, demonstrating strong correlation with expert sonographer CSA measurements.",
+      "source_excerpt": "Mask R-CNN for automated median nerve localization and CSA measurement at the carpal tunnel level in clinical rheumatology ultrasound.",
+      "local_pdf_path": null,
+      "local_note_paths": [],
+      "evidence_status": "READY"
+    },
+    {
+      "paper_id": "p07",
+      "dedup_key": "doi:10.1007/s11517-022-02662-5",
+      "title": "A deep learning approach to median nerve evaluation in ultrasound images of carpal tunnel inlet",
+      "authors": ["Mariachiara Di Cosmo", "Maria Chiara Fiorentino", "Francesca Pia Villani", "Emanuele Frontoni", "Gianluca Smerilli", "Emilio Filippucci", "Sara Moccia"],
+      "year": 2022,
+      "venue": "Medical & Biological Engineering & Computing",
+      "doi": "10.1007/s11517-022-02662-5",
+      "verification_status": "✅ verified (via crossref)",
+      "abstract": "Proposed a deep learning segmentation pipeline for median nerve evaluation in ultrasound images at the carpal tunnel inlet, accurately delineating nerve boundaries to compute morphological indicators such as cross-sectional area (CSA) for CTS diagnosis.",
+      "source_excerpt": "Deep learning semantic segmentation of the median nerve at the carpal tunnel inlet for automated CSA quantification.",
+      "local_pdf_path": null,
+      "local_note_paths": [],
+      "evidence_status": "READY"
+    },
+    {
+      "paper_id": "p08",
+      "dedup_key": "doi:10.1109/embc46164.2021.9631057",
+      "title": "Learning-Based Median Nerve Segmentation From Ultrasound Images For Carpal Tunnel Syndrome Evaluation",
+      "authors": ["Mariachiara Di Cosmo", "Maria Cristina Fiorentino", "Francesca Pia Villani", "Emanuele Frontoni", "Gianluca Smerilli", "Emilio Filippucci", "Sara Moccia"],
+      "year": 2021,
+      "venue": "IEEE EMBC 2021",
+      "doi": "10.1109/EMBC46164.2021.9631057",
+      "verification_status": "✅ verified (via crossref)",
+      "abstract": "Adapted Mask R-CNN for end-to-end median nerve segmentation from carpal tunnel ultrasound images to support objective CTS evaluation without manual contouring.",
+      "source_excerpt": "Mask R-CNN instance segmentation of the median nerve in transverse wrist ultrasound scans for CTS assessment.",
+      "local_pdf_path": null,
+      "local_note_paths": [],
+      "evidence_status": "READY"
+    },
+    {
+      "paper_id": "p09",
+      "dedup_key": "doi:10.1016/j.ultrasmedbio.2021.03.018",
+      "title": "Automated Segmentation of the Median Nerve in the Carpal Tunnel using U-Net",
+      "authors": ["R.T. Festen", "V.J.M.M. Schrier", "P.C. Amadio"],
+      "year": 2021,
+      "venue": "Ultrasound in Medicine & Biology",
+      "doi": "10.1016/j.ultrasmedbio.2021.03.018",
+      "verification_status": "✅ verified (via crossref)",
+      "abstract": "Trained a U-Net convolutional neural network on dynamic ultrasound image sequences (cine loops) to automatically segment the median nerve and quantify nerve morphology, displacement, and mobility during finger and wrist flexion in CTS patients and controls.",
+      "source_excerpt": "U-Net segmentation on dynamic ultrasound cine loops to quantify median nerve mobility and deformation during hand motion.",
+      "local_pdf_path": null,
+      "local_note_paths": [],
+      "evidence_status": "READY"
+    },
+    {
+      "paper_id": "p10",
+      "dedup_key": "doi:10.1016/j.ultrasmedbio.2020.03.017",
+      "title": "DeepNerve: A New Convolutional Neural Network for the Localization and Segmentation of the Median Nerve in Ultrasound Image Sequences",
+      "authors": ["Ming-Hwa Horng", "Chih-Wei Yang", "Yi-Nung Sun", "Tai-Hua Yang"],
+      "year": 2020,
+      "venue": "Ultrasound in Medicine & Biology",
+      "doi": "10.1016/j.ultrasmedbio.2020.03.017",
+      "verification_status": "✅ verified (via crossref)",
+      "abstract": "Introduced DeepNerve, combining U-Net with MaskTrack and ConvLSTM modules to localize and segment the median nerve across sequential ultrasound frames during dynamic wrist/finger movement.",
+      "source_excerpt": "Spatiotemporal CNN (DeepNerve) integrating U-Net, MaskTrack, and ConvLSTM for sequential median nerve localization and segmentation.",
+      "local_pdf_path": null,
+      "local_note_paths": [],
+      "evidence_status": "READY"
+    }
+  ]
+}
+

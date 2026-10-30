@@ -1,0 +1,82 @@
+{
+  "shard_id": "shard-04",
+  "assigned_unit_ids": ["p16", "p17", "p18", "p19", "p20"],
+  "papers": [
+    {
+      "paper_id": "p16",
+      "dedup_key": "doi:10.1371/journal.pone.0300044",
+      "title": "Carpal Tunnel Syndrome Prediction with Machine Learning Algorithms Using Anthropometric and Strength-Based Measurement",
+      "authors": ["Mehmet Canlı", "İsmail Ceylan", "Hikmet Kocaman", "Aysu Yetiş", "Mehmet Yetiş", "Hasan Yıldırım"],
+      "year": 2024,
+      "venue": "PLOS ONE",
+      "doi": "10.1371/journal.pone.0300044",
+      "verification_status": "✅ verified (via crossref)",
+      "abstract": "Developed non-invasive CTS screening models using Random Forest, XGBoost, and SVM trained purely on hand anthropometric dimensions, wrist circumference, and grip/pinch strength measurements without requiring imaging or electrodiagnosis.",
+      "source_excerpt": "Non-invasive ML screening for CTS using hand anthropometrics and grip/pinch strength measurements.",
+      "local_pdf_path": null,
+      "local_note_paths": [],
+      "evidence_status": "READY"
+    },
+    {
+      "paper_id": "p17",
+      "dedup_key": "doi:10.1080/10255842.2024.2417200",
+      "title": "Use of machine learning methods in diagnosis of carpal tunnel syndrome",
+      "authors": ["Erol Öten", "Nilüfer Aygün"],
+      "year": 2024,
+      "venue": "Computer Methods in Biomechanics and Biomedical Engineering",
+      "doi": "10.1080/10255842.2024.2417200",
+      "verification_status": "✅ verified (via crossref)",
+      "abstract": "Investigated Decision Trees, SVM, k-NN, and Artificial Neural Networks coupled with ANOVA and PCA feature selection on clinical and electromyography (EMG) parameters, finding Decision Trees + ANOVA optimal for CTS diagnosis and staging.",
+      "source_excerpt": "Systematic comparison of DT, SVM, k-NN, and ANN with ANOVA/PCA feature reduction on EMG and clinical features.",
+      "local_pdf_path": null,
+      "local_note_paths": [],
+      "evidence_status": "READY"
+    },
+    {
+      "paper_id": "p18",
+      "dedup_key": "doi:10.1186/s12891-025-09079-9",
+      "title": "Machine learning applications in forecasting patient satisfaction and clinical outcomes after carpal tunnel release: a retrospective study",
+      "authors": ["Zohreh Manoochehri", "Samaneh Manoochehri", "Seyed Reza Bagheri"],
+      "year": 2025,
+      "venue": "BMC Musculoskeletal Disorders",
+      "doi": "10.1186/s12891-025-09079-9",
+      "verification_status": "✅ verified (via crossref)",
+      "abstract": "Applied ensemble machine learning models (Random Forest, Gradient Boosting, SVM) to preoperative clinical, demographic, and Boston Carpal Tunnel Questionnaire (BCTQ) variables to predict postoperative symptom relief, functional status, and patient satisfaction after carpal tunnel release.",
+      "source_excerpt": "Forecasting post-carpal tunnel release surgical outcomes and patient satisfaction using ensemble ML models.",
+      "local_pdf_path": null,
+      "local_note_paths": [],
+      "evidence_status": "READY"
+    },
+    {
+      "paper_id": "p19",
+      "dedup_key": "doi:10.1016/j.artmed.2023.102496",
+      "title": "Application of Deep Learning Algorithms in Automatic Sonographic Localization and Segmentation of the Median Nerve: A Systematic Review and Meta-Analysis",
+      "authors": ["Jia-Chi Wang", "Yi-Chung Shu", "Chun-De Lin", "Wei-Ting Wu", "Leang-Pyung Christopher Chen", "Yu-Chiang Lo", "Hsiu-Chen Chiu", "Levent Özçakar", "Ke-Vin Chang"],
+      "year": 2023,
+      "venue": "Artificial Intelligence in Medicine",
+      "doi": "10.1016/j.artmed.2023.102496",
+      "verification_status": "✅ verified (via crossref)",
+      "abstract": "Systematic review and meta-analysis synthesizing deep learning architectures (U-Net, Mask R-CNN, DeepLab, FPN) for automatic median nerve localization and segmentation on carpal tunnel ultrasound, reporting pooled Dice coefficients (~0.88–0.91), precision, and recall.",
+      "source_excerpt": "Meta-analysis of DL architectures (U-Net, Mask R-CNN, DeepLab) for automatic sonographic median nerve localization and segmentation.",
+      "local_pdf_path": null,
+      "local_note_paths": [],
+      "evidence_status": "READY"
+    },
+    {
+      "paper_id": "p20",
+      "dedup_key": "doi:10.3390/diagnostics13203280",
+      "title": "The Potential of Ultrasound Radiomics in Carpal Tunnel Syndrome Diagnosis: A Systematic Review and Meta-Analysis",
+      "authors": ["Wei-Ting Wu", "Che-Yu Lin", "Yi-Chung Shu", "Peng-Chieh Shen", "Ting-Yu Lin", "Ke-Vin Chang", "Levent Özçakar"],
+      "year": 2023,
+      "venue": "Diagnostics (MDPI)",
+      "doi": "10.3390/diagnostics13203280",
+      "verification_status": "✅ verified (via crossref)",
+      "abstract": "Systematic review and meta-analysis evaluating ultrasound radiomics and machine learning for CTS diagnosis, reporting a pooled sensitivity of ~88%, specificity of ~88%, and SROC AUC > 0.92, outperforming conventional manual ultrasound assessment.",
+      "source_excerpt": "Meta-analysis showing ultrasound radiomics + ML achieves ~88% pooled sensitivity and specificity for CTS diagnosis.",
+      "local_pdf_path": null,
+      "local_note_paths": [],
+      "evidence_status": "READY"
+    }
+  ]
+}
+

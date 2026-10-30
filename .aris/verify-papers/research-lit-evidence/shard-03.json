@@ -1,0 +1,82 @@
+{
+  "shard_id": "shard-03",
+  "assigned_unit_ids": ["p11", "p12", "p13", "p14", "p15"],
+  "papers": [
+    {
+      "paper_id": "p11",
+      "dedup_key": "doi:10.1016/j.compmedimag.2019.101687",
+      "title": "MNT-DeepSL: Median nerve tracking from carpal tunnel ultrasound images with deep similarity learning and analysis on continuous wrist motions",
+      "authors": ["You-Wei Wang", "Ruey-Feng Chang", "Yi-Shiung Horng", "Chii-Jen Chen"],
+      "year": 2020,
+      "venue": "Computerized Medical Imaging and Graphics",
+      "doi": "10.1016/j.compmedimag.2019.101687",
+      "verification_status": "✅ verified (via crossref)",
+      "abstract": "Proposed MNT-DeepSL using deep similarity learning (Siamese-style tracking) to track median nerve trajectories in continuous wrist motion ultrasound videos, enabling kinematic biomarker extraction for CTS assessment.",
+      "source_excerpt": "Deep similarity learning tracker (MNT-DeepSL) for continuous median nerve trajectory analysis in dynamic carpal tunnel ultrasound.",
+      "local_pdf_path": null,
+      "local_note_paths": [],
+      "evidence_status": "READY"
+    },
+    {
+      "paper_id": "p12",
+      "dedup_key": "doi:10.1016/j.ejrad.2020.109518",
+      "title": "Accurate automated diagnosis of carpal tunnel syndrome using radiomics features with ultrasound images: A comparison with radiologists' assessment",
+      "authors": ["Fariborz Faeghi", "Ali Abbasian Ardakani", "U. Rajendra Acharya", "Mohammad Mirza-Aghazadeh-Attari", "Jamileh Abolghasemi", "Sajjad Ejtehadifar", "Afshin Mohammadi"],
+      "year": 2021,
+      "venue": "European Journal of Radiology",
+      "doi": "10.1016/j.ejrad.2020.109518",
+      "verification_status": "✅ verified (via crossref)",
+      "abstract": "Extracted high-dimensional ultrasound radiomics features (texture, wavelets, histogram) from median nerve ROIs and trained machine learning classifiers (SVM, Random Forest) to diagnose CTS, outperforming subjective visual assessment by radiologists.",
+      "source_excerpt": "Ultrasound radiomics feature extraction coupled with ML classifiers exceeds radiologist diagnostic accuracy for CTS.",
+      "local_pdf_path": null,
+      "local_note_paths": [],
+      "evidence_status": "READY"
+    },
+    {
+      "paper_id": "p13",
+      "dedup_key": "doi:10.3390/bioengineering11020175",
+      "title": "Carpal Tunnel Syndrome Automated Diagnosis: A Motor vs. Sensory Nerve Conduction-Based Approach",
+      "authors": ["Dimitrios Bakalis", "Prokopis Kontogiannis", "George Manis"],
+      "year": 2024,
+      "venue": "Bioengineering (MDPI)",
+      "doi": "10.3390/bioengineering11020175",
+      "verification_status": "✅ verified (via crossref)",
+      "abstract": "Compared automated CTS diagnosis and severity grading from raw motor vs. sensory nerve conduction signals using short-time Fourier transform (STFT) spectrograms with 2D CNNs and multilevel wavelet decomposition (MWD), achieving 94%–97.1% accuracy.",
+      "source_excerpt": "Time-frequency STFT spectrograms + 2D CNNs and wavelet decomposition on raw motor/sensory nerve conduction waveforms achieve 94-97.1% accuracy.",
+      "local_pdf_path": null,
+      "local_note_paths": [],
+      "evidence_status": "READY"
+    },
+    {
+      "paper_id": "p14",
+      "dedup_key": "doi:10.3390/bioengineering8110181",
+      "title": "Automatic Electrodiagnosis of Carpal Tunnel Syndrome Using Machine Learning",
+      "authors": ["Konstantinos I. Tsamis", "Prokopis Kontogiannis", "Ioannis Gourgiotis", "Stefanos Ntabos", "Ioannis Sarmas", "George Manis"],
+      "year": 2021,
+      "venue": "Bioengineering (MDPI)",
+      "doi": "10.3390/bioengineering8110181",
+      "verification_status": "✅ verified (via crossref)",
+      "abstract": "Applied machine learning classifiers (SVM, Decision Trees, Random Forests, k-NN, Neural Networks) to electrodiagnostic nerve conduction signals and extracted features for automated CTS detection and severity grading.",
+      "source_excerpt": "Automated electrodiagnosis of CTS from nerve conduction signals using classical machine learning classifiers.",
+      "local_pdf_path": null,
+      "local_note_paths": [],
+      "evidence_status": "READY"
+    },
+    {
+      "paper_id": "p15",
+      "dedup_key": "doi:10.1038/s41598-021-97043-7",
+      "title": "Machine Learning-Based Approach for Disease Severity Classification of Carpal Tunnel Syndrome",
+      "authors": ["Dougho Park", "Byung Hee Kim", "Sang-Eok Lee", "Dae Yul Kim", "Minyoung Kim", "Ho-Jun Kwon", "Mun-Chul Kim", "Ah-Young Kim", "Hyung-Sub Kim", "Joo-Hee Lee"],
+      "year": 2021,
+      "venue": "Scientific Reports",
+      "doi": "10.1038/s41598-021-97043-7",
+      "verification_status": "✅ verified (via crossref)",
+      "abstract": "Evaluated multiple machine learning algorithms (Extreme Gradient Boosting, Random Forest, SVM, CNN) combining clinical, anthropometric, ultrasound CSA, and electrophysiological features to classify CTS severity into mild, moderate, and severe grades.",
+      "source_excerpt": "Random Forest / XGBoost severity classification of CTS integrating clinical, anthropometric, and diagnostic parameters.",
+      "local_pdf_path": null,
+      "local_note_paths": [],
+      "evidence_status": "READY"
+    }
+  ]
+}
+

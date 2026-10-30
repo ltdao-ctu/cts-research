@@ -1,0 +1,160 @@
+{
+  "verdict": "WARN",
+  "hallucination_rate": 0.0,
+  "pending_rate": 1.0,
+  "warnings": [
+    "transient_failures_present"
+  ],
+  "papers": [
+    {
+      "id": "L01",
+      "status": "verify_pending",
+      "method": null,
+      "confidence": null,
+      "reason": "crossref_verify_pending",
+      "identifiers": {
+        "doi": "10.53446/actamednicomedia.1195719"
+      }
+    },
+    {
+      "id": "L02",
+      "status": "verify_pending",
+      "method": null,
+      "confidence": null,
+      "reason": "crossref_verify_pending",
+      "identifiers": {
+        "doi": "10.4103/jasi.jasi_108_22"
+      }
+    },
+    {
+      "id": "L03",
+      "status": "verify_pending",
+      "method": null,
+      "confidence": null,
+      "reason": "crossref_verify_pending",
+      "identifiers": {
+        "doi": "10.3390/bioengineering8110181"
+      }
+    },
+    {
+      "id": "L04",
+      "status": "verify_pending",
+      "method": null,
+      "confidence": null,
+      "reason": "crossref_verify_pending",
+      "identifiers": {
+        "doi": "10.1371/journal.pone.0300044"
+      }
+    },
+    {
+      "id": "L05",
+      "status": "verify_pending",
+      "method": null,
+      "confidence": null,
+      "reason": "crossref_verify_pending",
+      "identifiers": {
+        "doi": "10.1038/s41598-021-97043-7"
+      }
+    },
+    {
+      "id": "L06",
+      "status": "verify_pending",
+      "method": null,
+      "confidence": null,
+      "reason": "arxiv_verify_pending",
+      "identifiers": {
+        "arxiv_id": "2402.05554"
+      }
+    },
+    {
+      "id": "L07",
+      "status": "verify_pending",
+      "method": null,
+      "confidence": null,
+      "reason": "arxiv_verify_pending",
+      "identifiers": {
+        "arxiv_id": "2608.05619"
+      }
+    },
+    {
+      "id": "L08",
+      "status": "verify_pending",
+      "method": null,
+      "confidence": null,
+      "reason": "arxiv_verify_pending",
+      "identifiers": {
+        "arxiv_id": "2602.00763"
+      }
+    },
+    {
+      "id": "L09",
+      "status": "verify_pending",
+      "method": null,
+      "confidence": null,
+      "reason": "arxiv_verify_pending",
+      "identifiers": {
+        "arxiv_id": "2603.05541"
+      }
+    },
+    {
+      "id": "L10",
+      "status": "verify_pending",
+      "method": null,
+      "confidence": null,
+      "reason": "arxiv_verify_pending",
+      "identifiers": {
+        "arxiv_id": "2109.06346"
+      }
+    },
+    {
+      "id": "L11",
+      "status": "verify_pending",
+      "method": null,
+      "confidence": null,
+      "reason": "arxiv_verify_pending",
+      "identifiers": {
+        "arxiv_id": "2507.07131"
+      }
+    },
+    {
+      "id": "L12",
+      "status": "verify_pending",
+      "method": null,
+      "confidence": null,
+      "reason": "arxiv_verify_pending",
+      "identifiers": {
+        "arxiv_id": "2111.04582"
+      }
+    },
+    {
+      "id": "L13",
+      "status": "verify_pending",
+      "method": null,
+      "confidence": null,
+      "reason": "arxiv_verify_pending",
+      "identifiers": {
+        "arxiv_id": "2305.16423"
+      }
+    },
+    {
+      "id": "L14",
+      "status": "verify_pending",
+      "method": null,
+      "confidence": null,
+      "reason": "arxiv_verify_pending",
+      "identifiers": {
+        "arxiv_id": "2210.08734"
+      }
+    },
+    {
+      "id": "L15",
+      "status": "verify_pending",
+      "method": null,
+      "confidence": null,
+      "reason": "arxiv_verify_pending",
+      "identifiers": {
+        "arxiv_id": "2006.00202"
+      }
+    }
+  ]
+}

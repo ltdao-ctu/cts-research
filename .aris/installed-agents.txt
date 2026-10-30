@@ -1,0 +1,6 @@
+version	1
+repo_root	D:\github\aris_repo
+project_root	D:\github\cts
+generated	2026-10-30T06:07:58Z
+kind	name	source_rel	target_rel	mode
+agent	aris-fanout-leaf	agents/aris-fanout-leaf.md	.claude/agents/aris-fanout-leaf.md	symlink

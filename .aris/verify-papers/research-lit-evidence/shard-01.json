@@ -1,0 +1,82 @@
+{
+  "shard_id": "shard-01",
+  "assigned_unit_ids": ["p01", "p02", "p03", "p04", "p05"],
+  "papers": [
+    {
+      "paper_id": "p01",
+      "dedup_key": "arxiv:2402.05554",
+      "title": "One-Stop Automated Diagnostic System for Carpal Tunnel Syndrome in Ultrasound Images Using Deep Learning",
+      "authors": ["Jiayu Peng", "Jiajun Zeng", "Manlin Lai", "Ruobing Huang", "Dong Ni", "Zhenzhou Li"],
+      "year": 2024,
+      "venue": "Ultrasound in Medicine & Biology (arXiv:2402.05554)",
+      "doi": "10.1016/j.ultrasmedbio.2023.10.009",
+      "verification_status": "✅ verified (via arxiv)",
+      "abstract": "Objective: Ultrasound (US) examination has unique advantages in diagnosing carpal tunnel syndrome (CTS) while identifying the median nerve (MN) and diagnosing CTS depends heavily on the expertise of examiners. Methods: We combined real-time MN delineation, accurate biometric measurements, and explainable CTS diagnosis into a unified framework, called OSA-CTSD, evaluated on 32,301 static images from US videos of 90 normal wrists and 40 CTS wrists. Results: HD95 score of 7.21px, ASSD score of 2.64px, Dice score of 85.78%, and IoU score of 76.00%. Comparable with experienced radiologists and outperformed inexperienced radiologists (+3.59% accuracy, +5.85% F1).",
+      "source_excerpt": "Unified one-stop deep learning system (OSA-CTSD) combining real-time median nerve segmentation, biometric measurements, and explainable CTS diagnosis from ultrasound video frames.",
+      "local_pdf_path": null,
+      "local_note_paths": [],
+      "evidence_status": "READY"
+    },
+    {
+      "paper_id": "p02",
+      "dedup_key": "doi:10.1016/j.clinph.2025.03.038",
+      "title": "Diagnosis of carpal tunnel syndrome using deep learning with comparative guidance",
+      "authors": ["Jungsub Sim", "Sungche Lee", "Seunghyun Kim", "Seong-ho Jeong", "Joonshik Yoon", "Seungjun Baek"],
+      "year": 2025,
+      "venue": "Clinical Neurophysiology",
+      "doi": "10.1016/j.clinph.2025.03.038",
+      "verification_status": "✅ verified (via crossref)",
+      "abstract": "Developed a deep learning model using comparative classification of ultrasound images from the thenar and hypothenar muscles (median vs. ulnar nerve innervation zones) with cosine similarity-based comparative guidance to autonomously identify echotexture differences, proving robust against anatomical variations and standard CSA cutoff limitations.",
+      "source_excerpt": "Cosine similarity-based comparative guidance between thenar (median-innervated) and hypothenar (ulnar-innervated) muscle ultrasound images overcomes inter-patient anatomical variability.",
+      "local_pdf_path": null,
+      "local_note_paths": [],
+      "evidence_status": "READY"
+    },
+    {
+      "paper_id": "p03",
+      "dedup_key": "doi:10.1016/j.ejrad.2026.113251",
+      "title": "Explainable ultrasound-based multimodal deep learning for outcome prediction after needle release in carpal tunnel syndrome: a multicenter study",
+      "authors": ["Xiaochen Shi", "Tianxiang Yu", "Yu Yuan", "Dan Wang", "Ling Bai", "Hailin Xu"],
+      "year": 2026,
+      "venue": "European Journal of Radiology",
+      "doi": "10.1016/j.ejrad.2026.113251",
+      "verification_status": "✅ verified (via crossref)",
+      "abstract": "Multicenter study combining pre-therapy sonographic features (cross-sectional area, transverse/longitudinal B-mode, color Doppler), electrophysiological parameters, and clinical data in an explainable multimodal deep learning framework to predict individual patient prognoses following ultrasound-guided needle release.",
+      "source_excerpt": "Multimodal deep learning fusing B-mode/Doppler ultrasound, electrophysiology, and clinical variables across multiple centers for post-needle-release prognosis prediction.",
+      "local_pdf_path": null,
+      "local_note_paths": [],
+      "evidence_status": "READY"
+    },
+    {
+      "paper_id": "p04",
+      "dedup_key": "doi:10.20944/preprints202603.0234.v1",
+      "title": "Automated Ultrasound-Based Severity Classification of Carpal Tunnel Syndrome: A Deep Learning Model Validated Against Nerve Conduction Studies",
+      "authors": ["Miguel Malo-Urriés", "Elena Bueno-Gracia", "Izarbe Ríos-Asín", "Gianluca Ciuffreda", "Adrián Aurensanz-Crespo", "Mario Gutiérrez-López", "Marta García-Díez"],
+      "year": 2026,
+      "venue": "Preprints.org",
+      "doi": "10.20944/preprints202603.0234.v1",
+      "verification_status": "✅ verified (via crossref)",
+      "abstract": "Convolutional neural network (CNN) models trained on B-mode transverse and longitudinal ultrasound scans to automatically classify CTS severity into four levels (normal, mild, moderate, severe), validated against standardized nerve conduction studies (NCS) as the reference standard.",
+      "source_excerpt": "Four-class CTS severity grading (normal, mild, moderate, severe) directly from transverse and longitudinal B-mode ultrasound images anchored to NCS ground truth.",
+      "local_pdf_path": null,
+      "local_note_paths": [],
+      "evidence_status": "READY"
+    },
+    {
+      "paper_id": "p05",
+      "dedup_key": "doi:10.1016/j.ultrasmedbio.2022.05.030",
+      "title": "Using Deep Learning for Ultrasound Images to Diagnose Carpal Tunnel Syndrome with High Accuracy",
+      "authors": ["Issei Shinohara", "Atsuyuki Inui", "Yutaka Mifune", "Hiroki Nishimoto", "Kohei Yamaura", "Shinya Mukohara", "Tomoya Yoshikawa", "Tatsuo Kato", "Takahiro Furukawa", "Ryosuke Kuroda"],
+      "year": 2022,
+      "venue": "Ultrasound in Medicine & Biology",
+      "doi": "10.1016/j.ultrasmedbio.2022.05.030",
+      "verification_status": "✅ verified (via crossref)",
+      "abstract": "Evaluated transfer learning with pre-trained CNN architectures to diagnose CTS directly from short-axis median nerve ultrasound images without manual or automated calculation of cross-sectional area (CSA), achieving up to 96% accuracy with Grad-CAM highlighting the epineurium and surrounding tissues.",
+      "source_excerpt": "CSA-free end-to-end CNN classification of short-axis carpal tunnel ultrasound images achieving up to 96% diagnostic accuracy.",
+      "local_pdf_path": null,
+      "local_note_paths": [],
+      "evidence_status": "READY"
+    }
+  ]
+}
+

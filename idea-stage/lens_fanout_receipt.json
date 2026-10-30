@@ -1,0 +1,192 @@
+{
+  "planned_shards": [
+    "lens:method-transfer",
+    "lens:contradiction",
+    "lens:untested-assumption",
+    "lens:scaling-regime",
+    "lens:diagnostic"
+  ],
+  "completed_shards": [
+    "lens:method-transfer",
+    "lens:contradiction",
+    "lens:untested-assumption",
+    "lens:scaling-regime",
+    "lens:diagnostic"
+  ],
+  "failed_shards": [],
+  "planned_unit_ids": [
+    "lens:method-transfer",
+    "lens:contradiction",
+    "lens:untested-assumption",
+    "lens:scaling-regime",
+    "lens:diagnostic"
+  ],
+  "covered_unit_ids": [
+    "lens:method-transfer",
+    "lens:contradiction",
+    "lens:untested-assumption",
+    "lens:scaling-regime",
+    "lens:diagnostic"
+  ],
+  "uncovered_unit_ids": [],
+  "fallback_attempts": 0,
+  "coverage_complete": true,
+  "shards": [
+    {
+      "shard_id": "lens:method-transfer",
+      "assigned_unit_ids": ["lens:method-transfer"],
+      "covered_unit_ids": ["lens:method-transfer"],
+      "status": "completed",
+      "candidates": [
+        {
+          "idea_id": "idea_001",
+          "title": "Cross-Modal Knowledge Distillation from Raw Nerve Conduction Waveforms to Point-of-Care B-Mode Ultrasound (EDX2US-KD)",
+          "summary": "Distill functional electrophysiological representations from a teacher network trained on raw motor/sensory NCS spectrograms into an ultrasound-only student network so B-mode wrist ultrasound alone predicts 4-level functional CTS severity.",
+          "hypothesis": "Aligning intermediate B-mode ultrasound embeddings with STFT/wavelet representations of paired motor and sensory nerve conduction waveforms via contrastive relational distillation will improve 4-grade CTS severity classification (especially mild vs. moderate demyelination) by >=5% macro-F1 over ultrasound-only CNNs trained on discrete severity labels alone.",
+          "mve": "Train a 2D-CNN teacher on STFT motor/sensory NCS waveforms and a ResNet/ConvNeXt student on paired B-mode ultrasound (5-fold CV on the 55-patient Shanghai Sixth Hospital paired US+EMG dataset + synthetic SNR perturbations), comparing hard-label CE vs. cross-modal feature + logit distillation.",
+          "contribution_type": "new method",
+          "risk": "LOW",
+          "effort": "days",
+          "dedup_key": "cross-modal-distillation-raw-ncs-to-ultrasound-student"
+        },
+        {
+          "idea_id": "idea_002",
+          "title": "Anatomical-Graph Neural Network over Carpal Tunnel Structure Topology (CarpalGraph-Net)",
+          "summary": "Model the median nerve, flexor retinaculum, and nine flexor tendons as an interacting spatial-biomechanical graph rather than an isolated nerve ROI.",
+          "hypothesis": "A relational graph neural network operating on segmented node features (median nerve, flexor tendons, retinaculum bowing angle, and tunnel crowding ratio) will outperform isolated median-nerve CNNs and CSA cutoffs on atypical/bifid nerve cases and mild CTS.",
+          "mve": "Extract multi-structure masks/keypoints using a pre-trained segmentation backbone on transverse carpal tunnel ultrasound frames, construct a k-NN anatomical graph, and compare a 3-layer GATv2 classifier against isolated median-nerve ResNet-50 and CSA cutoffs.",
+          "contribution_type": "new method",
+          "risk": "MEDIUM",
+          "effort": "weeks",
+          "dedup_key": "anatomical-graph-neural-network-carpal-tunnel-topology"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "shard_id": "lens:contradiction",
+      "assigned_unit_ids": ["lens:contradiction"],
+      "covered_unit_ids": ["lens:contradiction"],
+      "status": "completed",
+      "candidates": [
+        {
+          "idea_id": "idea_003",
+          "title": "Disentangled Morphology-vs-Echotexture Network with Intra-Patient Comparative Normalization (MorphoTex-CTS)",
+          "summary": "Resolve the literature contradiction between geometric CSA cutoffs and CSA-free texture CNNs by explicitly disentangling nerve shape/size from intraneural fascicular echotexture normalized against internal reference tissue.",
+          "hypothesis": "Explicitly factorizing carpal tunnel ultrasound representations into a shape-only branch (silhouette mask geometry) and a shape-invariant texture branch (masked intraneural + epineurial texture normalized via cosine similarity to reference muscle/tendon echogenicity) with orthogonality regularization will reveal that texture dominates early/mild CTS while geometry dominates moderate/severe CTS, and their gated fusion will beat both CSA-only and CSA-free models.",
+          "mve": "On transverse B-mode ultrasound images, train a dual-branch network (Branch A: binary mask shape encoder; Branch B: masked ROI texture encoder with gradient-reversal/orthogonality against CSA) and evaluate stage-wise AUROC across normal, mild, moderate, and severe CTS.",
+          "contribution_type": "new method / diagnostic",
+          "risk": "LOW",
+          "effort": "days",
+          "dedup_key": "disentangled-morphology-vs-echotexture-comparative-normalization"
+        },
+        {
+          "idea_id": "idea_004",
+          "title": "Spatiotemporal Kinematic-Deformation Transformer on Dynamic Cine-Loop Ultrasound (GlideFormer-CTS)",
+          "summary": "Jointly model median nerve trajectory kinematics (radial-ulnar/dorsal-palmar excursion velocity) and continuous cross-sectional circularity/strain deformation across finger flexion-extension cine loops.",
+          "hypothesis": "Combining optical-flow-guided nerve center-of-mass trajectory kinematics with frame-to-frame boundary strain/deformation tokens in a lightweight temporal Transformer will detect subclinical subsynovial connective tissue tethering in mild CTS where static CSA is normal (<10 mm2).",
+          "mve": "Run U-Net/YOLOv8-seg across dynamic wrist/finger flexion ultrasound video sequences to extract per-frame nerve masks, compute displacement velocity + boundary Fourier descriptor strain series, and compare a temporal Transformer against static single-frame CSA and YOLOv5 centroid-only tracking.",
+          "contribution_type": "new method",
+          "risk": "MEDIUM",
+          "effort": "weeks",
+          "dedup_key": "spatiotemporal-kinematic-deformation-transformer-cine-loop-ultrasound"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "shard_id": "lens:untested-assumption",
+      "assigned_unit_ids": ["lens:untested-assumption"],
+      "covered_unit_ids": ["lens:untested-assumption"],
+      "status": "completed",
+      "candidates": [
+        {
+          "idea_id": "idea_005",
+          "title": "Physics-Guided Speckle-Invariant Test-Time Adaptation for Cross-Vendor Carpal Tunnel Ultrasound (SpeckleTTA)",
+          "summary": "Challenge the assumption of i.i.d. ultrasound acquisition by adapting segmentation and diagnostic networks at test time using physics-based acoustic speckle statistics and contour-entropy minimization.",
+          "hypothesis": "Updating batch-norm / adapter parameters at test time via Rayleigh/Nakagami acoustic backscatter consistency and boundary-entropy minimization will recover >=60% of the Dice and AUROC degradation caused by cross-probe frequency, gain, and compression shifts.",
+          "mve": "Simulate realistic physics-based acoustic shifts (speckle scale, TGC depth attenuation, probe compression axial deformation) and cross-center splits; benchmark source-only U-Net/ResNet vs. Tent vs. SpeckleTTA during single-patient inference.",
+          "contribution_type": "new method",
+          "risk": "LOW",
+          "effort": "days",
+          "dedup_key": "physics-guided-speckle-invariant-test-time-adaptation-ultrasound"
+        },
+        {
+          "idea_id": "idea_006",
+          "title": "Conformal Risk-Controlled Deferral for Two-Stage Non-Invasive-to-EDX Clinical Triage (ConformalCTS-Gate)",
+          "summary": "Replace fixed probability thresholds in clinical/ultrasound screening with split conformal prediction sets that guarantee a user-specified false-negative ceiling (<2%) while minimizing invasive NCS referrals.",
+          "hypothesis": "Wrapping a multimodal non-invasive classifier (anthropometrics + BCTQ symptoms + B-mode US) in a stage-conditional conformal risk controller will eliminate invasive electrodiagnostic testing in >=45% of patients while provably bounding missed moderate/severe CTS below 2%.",
+          "mve": "Train XGBoost + US-CNN ensemble on clinical + ultrasound features, calibrate split conformal prediction sets at alpha = 0.02 and 0.05 across bootstrap folds, and measure the fraction of singleton predictions (confident non-invasive triage) vs. multi-label abstentions (referred to NCS).",
+          "contribution_type": "new method / empirical finding",
+          "risk": "LOW",
+          "effort": "days",
+          "dedup_key": "conformal-risk-controlled-deferral-non-invasive-to-edx-triage"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "shard_id": "lens:scaling-regime",
+      "assigned_unit_ids": ["lens:scaling-regime"],
+      "covered_unit_ids": ["lens:scaling-regime"],
+      "status": "completed",
+      "candidates": [
+        {
+          "idea_id": "idea_007",
+          "title": "Cross-Anatomy Peripheral Nerve Self-Supervised Pre-Training for Few-Shot Median Nerve Segmentation (NerveMAE)",
+          "summary": "Pre-train a speckle-aware Masked Autoencoder on large public peripheral nerve ultrasound collections (brachial plexus, sciatic, femoral, median nerves) to enable high-accuracy median nerve segmentation and CTS grading with <=20 labeled wrists.",
+          "hypothesis": "Self-supervised masked acoustic patch reconstruction across heterogeneous peripheral nerve ultrasound datasets (e.g., Kaggle 5,635-image Brachial Plexus + public nerve videos) will enable a fine-tuned median nerve segmentation and diagnosis head to match full-supervision performance using only 10-20% labeled CTS wrists.",
+          "mve": "Pre-train a lightweight ViT/ConvNeXt-MAE on the public Kaggle Ultrasound Nerve dataset (5,635 images) with speckle-tube masking, then fine-tune on 5, 10, 20, and 50 labeled carpal tunnel ultrasound images and compare Dice/AUROC against ImageNet-pretrained U-Net/Mask R-CNN.",
+          "contribution_type": "empirical finding / new method",
+          "risk": "LOW",
+          "effort": "days",
+          "dedup_key": "cross-anatomy-peripheral-nerve-self-supervised-mae-few-shot-cts"
+        },
+        {
+          "idea_id": "idea_008",
+          "title": "Foundation 3D-Volume Carpal Tunnel Reconstruction from Uncalibrated Freehand 2D Ultrasound Sweeps",
+          "summary": "Train an implicit neural representation (NeRF/Gaussian splatting) with inertial/speckle decorrelation priors to reconstruct 3D volumetric median nerve geometry from 2D freehand wrist sweeps.",
+          "hypothesis": "3D volumetric nerve constriction ratio (hourglass index across the entire carpal tunnel length) reconstructed from uncalibrated 2D sweeps will outperform single-slice inlet CSA.",
+          "mve": "Fit a neural implicit volume to sequential 2D transverse sweep frames and estimate longitudinal cross-sectional profile.",
+          "contribution_type": "new method",
+          "risk": "HIGH",
+          "effort": "months",
+          "dedup_key": "implicit-3d-volume-reconstruction-uncalibrated-freehand-ultrasound-sweeps"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "shard_id": "lens:diagnostic",
+      "assigned_unit_ids": ["lens:diagnostic"],
+      "covered_unit_ids": ["lens:diagnostic"],
+      "status": "completed",
+      "candidates": [
+        {
+          "idea_id": "idea_009",
+          "title": "Shortcut Auditing & Frequency-Band Attribution in Ultrasound and NCS Deep Learning Classifiers (CTS-ShortcutAudit)",
+          "summary": "Systematically audit whether high-accuracy CTS ultrasound CNNs (>95% reported accuracy) and NCS spectrogram CNNs rely on true neurophysiological/anatomical biomarkers or spurious imaging/signal shortcuts.",
+          "hypothesis": "Masking tests (nerve-only vs. background-only vs. bounding-box-erased images) and spatial-frequency band ablations will show that standard unconstrained CNNs trained on small CTS ultrasound datasets derive >35% of their discriminative signal from non-nerve depth/gain/transducer artifacts rather than median nerve pathology.",
+          "mve": "Train standard ResNet-50 / DenseNet-121 / ViT classifiers on four image variants: (1) full image, (2) nerve-ROI only, (3) background-only with median nerve zeroed out, and (4) phase-randomized speckle; quantify shortcut reliance and evaluate an anatomical-attention-constrained loss that eliminates background shortcut leakage.",
+          "contribution_type": "diagnostic / empirical finding",
+          "risk": "LOW",
+          "effort": "days",
+          "dedup_key": "shortcut-auditing-frequency-band-attribution-cts-ultrasound-ncs"
+        },
+        {
+          "idea_id": "idea_010",
+          "title": "Counterfactual Individual Treatment Effect (ITE) Estimation for Conservative vs. Needle Release vs. Open Carpal Tunnel Release",
+          "summary": "Learn calibrated counterfactual outcome curves predicting 6-month BCTQ symptom resolution under conservative splinting, US-guided needle release, and open surgical release.",
+          "hypothesis": "Causal representation learning (TARNet/DragonNet) on multimodal pre-treatment features will identify the subgroup of moderate CTS patients who achieve equivalent recovery from minimally invasive needle release vs. open surgery.",
+          "mve": "Fit DragonNet on retrospective multi-arm clinical cohort data with propensity weighting.",
+          "contribution_type": "empirical finding",
+          "risk": "HIGH",
+          "effort": "months",
+          "dedup_key": "counterfactual-treatment-effect-conservative-needle-surgical-release"
+        }
+      ],
+      "errors": []
+    }
+  ]
+}
+

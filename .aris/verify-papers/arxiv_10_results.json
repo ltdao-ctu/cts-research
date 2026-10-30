@@ -1,0 +1,200 @@
+[
+  {
+    "id": "2608.05619",
+    "title": "CaRing: Preventing Carpal Tunnel Syndrome based on Daily Activities from Always-Available Input Device",
+    "authors": [
+      "Shuowei Li",
+      "Houdong Liang",
+      "Xingjian Dong"
+    ],
+    "abstract": "We present CaRing, a ring worn on the base knuckle of the index finger, a wearable system for detecting the start and end of mouse use to help prevent Carpal Tunnel Syndrome, in which the damage to the median nerve is permanent. CaRing senses finger movement, which neither a software timer nor a wrist-worn device detects. The displacement reported by an optical flow sensor is accumulated into a running value, then a zero point is measured while the hand rests on the desk at the start of each session. With this formulation, the start and end thresholds are expressed relative to the session's zero point. CaRing does not introduce any per-user parameter. We empirically demonstrate that approximately $90\\%$ of start and end events are detected within two seconds of the researcher's label, using 35 recordings and a lab study with ten users.",
+    "published": "2026-08-06",
+    "updated": "2026-10-08",
+    "categories": [
+      "cs.HC"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2608.05619.pdf",
+    "abs_url": "https://arxiv.org/abs/2608.05619"
+  },
+  {
+    "id": "2402.05554",
+    "title": "One-Stop Automated Diagnostic System for Carpal Tunnel Syndrome in Ultrasound Images Using Deep Learning",
+    "authors": [
+      "Jiayu Peng",
+      "Jiajun Zeng",
+      "Manlin Lai",
+      "Ruobing Huang",
+      "Dong Ni",
+      "Zhenzhou Li"
+    ],
+    "abstract": "Objective: Ultrasound (US) examination has unique advantages in diagnosing carpal tunnel syndrome (CTS) while identifying the median nerve (MN) and diagnosing CTS depends heavily on the expertise of examiners. To alleviate this problem, we aimed to develop a one-stop automated CTS diagnosis system (OSA-CTSD) and evaluate its effectiveness as a computer-aided diagnostic tool. Methods: We combined real-time MN delineation, accurate biometric measurements, and explainable CTS diagnosis into a unified framework, called OSA-CTSD. We collected a total of 32,301 static images from US videos of 90 normal wrists and 40 CTS wrists for evaluation using a simplified scanning protocol. Results: The proposed model showed better segmentation and measurement performance than competing methods, reporting that HD95 score of 7.21px, ASSD score of 2.64px, Dice score of 85.78%, and IoU score of 76.00%, respectively. In the reader study, it demonstrated comparable performance with the average performance of the experienced in classifying the CTS, while outperformed that of the inexperienced radiologists in terms of classification metrics (e.g., accuracy score of 3.59% higher and F1 score of 5.85% higher). Conclusion: The OSA-CTSD demonstrated promising diagnostic performance with the advantages of real-time, automation, and clinical interpretability. The application of such a tool can not only reduce reliance on the expertise of examiners, but also can help to promote the future standardization of the CTS diagnosis process, benefiting both patients and radiologists.",
+    "published": "2024-02-08",
+    "updated": "2024-02-08",
+    "categories": [
+      "eess.IV",
+      "cs.CV"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2402.05554.pdf",
+    "abs_url": "https://arxiv.org/abs/2402.05554"
+  },
+  {
+    "id": "2602.00763",
+    "title": "Evaluating Deep Learning-Based Nerve Segmentation in Brachial Plexus Ultrasound Under Realistic Data Constraints",
+    "authors": [
+      "Dylan Yves",
+      "Khush Agarwal",
+      "Jonathan Hoyin Chan",
+      "Patcharapit Promoppatum",
+      "Aroonkamon Pattanasiricharoen"
+    ],
+    "abstract": "Accurate nerve localization is critical for the success of ultrasound-guided regional anesthesia, yet manual identification remains challenging due to low image contrast, speckle noise, and inter-patient anatomical variability. This study evaluates deep learning-based nerve segmentation in ultrasound images of the brachial plexus using a U-Net architecture, with a focus on how dataset composition and annotation strategy influence segmentation performance. We find that training on combined data from multiple ultrasound machines (SIEMENS ACUSON NX3 Elite and Philips EPIQ5) provides regularization benefits for lower-performing acquisition sources, though it does not surpass single-source training when matched to the target domain. Extending the task from binary nerve segmentation to multi-class supervision (artery, vein, nerve, muscle) results in decreased nerve-specific Dice scores, with performance drops ranging from 9% to 61% depending on dataset, likely due to class imbalance and boundary ambiguity. Additionally, we observe a moderate positive correlation between nerve size and segmentation accuracy (Pearson r=0.587, p<0.001), indicating that smaller nerves remain a primary challenge. These findings provide methodological guidance for developing robust ultrasound nerve segmentation systems under realistic clinical data constraints.",
+    "published": "2026-01-31",
+    "updated": "2026-01-31",
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2602.00763.pdf",
+    "abs_url": "https://arxiv.org/abs/2602.00763"
+  },
+  {
+    "id": "2603.05541",
+    "title": "Privacy-Preserving Collaborative Medical Image Segmentation Using Latent Transform Networks",
+    "authors": [
+      "Saheed Ademola Bello",
+      "Muhammad Shahid Jabbar",
+      "Muhammad Sohail Ibrahim",
+      "Shujaat Khan"
+    ],
+    "abstract": "Collaborative training across multiple institutions is becoming essential for building reliable medical image segmentation models. However, privacy regulations, data silos, and uneven data availability prevent hospitals from sharing raw scans or annotations, limiting the ability to train generalizable models. Latent-space collaboration frameworks such as privacy-segmentation framework (SF) offer a promising alternative, but such methods still face challenges in segmentation accuracy and vulnerability to latent inversion and membership-inference attacks. This work introduces a privacy-preserving collaborative medical image segmentation framework (PPCMI-SF) designed for heterogeneous medical datasets. The approach combines skip-connected autoencoders for images and masks with a keyed latent transform that applies client-specific orthogonal mixing and permutation to protect latent features before they are shared. A unified mapping network on the server-side performs multi-scale latent-to-latent translation, enabling segmentation inference without exposing raw data. Experiments on four datasets: PSFH ultrasound, ultrasound nerve segmentation, FUMPE CTA, and cardiac MRI show that the proposed PPCMI-SF consistently achieves high Dice scores and improved boundary accuracy, as reflected by lower 95th percentile Hausdorff distance (HD95) and average symmetric surface distance (ASD) compared to the current state-of-the-art and performs competitively with privacy-agnostic baselines. Privacy tests confirm strong resistance to inversion and membership attacks, and the overall system achieves real-time inference with low communication overhead. These results demonstrate that accurate and efficient medical image segmentation can be achieved without compromising data privacy in multi-institution settings.",
+    "published": "2026-03-04",
+    "updated": "2026-03-04",
+    "categories": [
+      "q-bio.QM",
+      "cs.CR",
+      "eess.IV"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2603.05541.pdf",
+    "abs_url": "https://arxiv.org/abs/2603.05541"
+  },
+  {
+    "id": "2111.04582",
+    "title": "Unconstrained Kinematic MRI Tracking of Wrist Carpal Bones",
+    "authors": [
+      "Mohammad Zarenia",
+      "Volkan Emre Arpinar",
+      "Andrew S. Nencka",
+      "L. Tugan Muftuler",
+      "Kevin M. Koch"
+    ],
+    "abstract": "In this preliminary study technical methodology for kinematic tracking and profiling of wrist carpal bones during unconstrained movements is explored. Heavily under-sampled and fat-saturated 3D Cartesian MRI acquisition were used to capture temporal frames of the unconstrained moving wrist of 5 healthy subjects. A slab-to-volume point-cloud based registration was then utilized to register the moving volumes to a high-resolution image volume set collected at a neutral resting position. Comprehensive error analyses for different acquisition parameter settings were performed to evaluate the performance limits of several derived kinematic metrics. Computational results suggested that sufficient volume coverage for the dynamic acquisitions was reached when collecting 12 slice-encodes at 2.5mm resolution, which yielded a temporal resolution of and 2.57 seconds per volumetric frame. These acquisition parameters resulted in total absolute errors of 1.9$^\\circ\\pm$1.8$^\\circ$ (3$^\\circ\\pm$4.6$^\\circ$) in derived rotation angles and 0.3mm$\\pm$0.47mm (0.72mm$\\pm$0.8mm) in center-of-mass displacement kinematic profiles within ulnar-radial (flexion-extension) motion. The results of this study have established the feasibility of kinematic metric tracking of unconstrained wrist motion using 4D MRI. Temporal metric profiles derived from ulnar-radial deviation motion demonstrated better performance than those derived from flexion/extension movements. Future work will continue to explore the use of these methods in deriving more complex kinematic metrics and their application to subjects with symptomatic carpal dysfunction.",
+    "published": "2021-11-08",
+    "updated": "2021-11-08",
+    "categories": [
+      "physics.med-ph"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2111.04582.pdf",
+    "abs_url": "https://arxiv.org/abs/2111.04582"
+  },
+  {
+    "id": "2305.16423",
+    "title": "Development and Stability Analysis of Carpal Kinematic Metrics from 4D Magnetic Resonance Imaging",
+    "authors": [
+      "Azadeh Sharafi",
+      "Andrew S Nencka",
+      "Kevin M Koch"
+    ],
+    "abstract": "Introduction: Wrist instability remains a common health concern. The potential of dynamic Magnetic Resonance Imaging (MRI) in assessing carpal dynamics associated with this condition is a field of ongoing research. This study contributes to this line of inquiry by developing MRI-derived carpal kinematic metrics and investigating their stability. Methods: A previously described 4D MRI approach for tracking the movements of carpal bones in the wrist was deployed in this study. A panel of 120 metrics characterizing radial/ulnar deviation and flexion extension movements was constructed by fitting low order polynomial models of scaphoid and lunate degrees of freedom against that of the capitate. Intraclass Correlation Coefficients were utilized to analyze intra- and inter-subject stability within a mixed cohort of 49 subjects, including 20 with and 29 without a history of wrist injury. Results: A comparable degree of stability across the two different wrist movements. Out of the total 120 derived metrics, distinct subsets demonstrated high stability within each type of movement. Among asymptomatic subjects, 16 out of 17 metrics with high intra-subject stability also showed high inter-subject stability. Interestingly, some quadratic term metrics, although relatively unstable within asymptomatic subjects, showed increased stability within this group, hinting at potential differentiation in their behavior across different cohorts. Conclusion: This study showed the developing potential of dynamic MRI to characterize complex carpal bone dynamics. Stability analyses of the derived kinematic metrics showed encouraging differences between cohorts with and without a history of wrist injury. Although these broad metric stability variations highlight the potential utility of this approach for analysis of carpal instability, further studies are necessary to better characterize these observations.",
+    "published": "2023-05-25",
+    "updated": "2023-05-25",
+    "categories": [
+      "physics.med-ph"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2305.16423.pdf",
+    "abs_url": "https://arxiv.org/abs/2305.16423"
+  },
+  {
+    "id": "2109.06346",
+    "title": "Physics Driven Domain Specific Transporter Framework with Attention Mechanism for Ultrasound Imaging",
+    "authors": [
+      "Arpan Tripathi",
+      "Abhilash Rakkunedeth",
+      "Mahesh Raveendranatha Panicker",
+      "Jack Zhang",
+      "Naveenjyote Boora",
+      "Jessica Knight",
+      "Jacob Jaremko",
+      "Yale Tung Chen",
+      "Kiran Vishnu Narayan",
+      "Kesavadas C"
+    ],
+    "abstract": "Most applications of deep learning techniques in medical imaging are supervised and require a large number of labeled data which is expensive and requires many hours of careful annotation by experts. In this paper, we propose an unsupervised, physics driven domain specific transporter framework with an attention mechanism to identify relevant key points with applications in ultrasound imaging. The proposed framework identifies key points that provide a concise geometric representation highlighting regions with high structural variation in ultrasound videos. We incorporate physics driven domain specific information as a feature probability map and use the radon transform to highlight features in specific orientations. The proposed framework has been trained on130 Lung ultrasound (LUS) videos and 113 Wrist ultrasound (WUS) videos and validated on 100 Lung ultrasound (LUS) videos and 58 Wrist ultrasound (WUS) videos acquired from multiple centers across the globe. Images from both datasets were independently assessed by experts to identify clinically relevant features such as A-lines, B-lines and pleura from LUS and radial metaphysis, radial epiphysis and carpal bones from WUS videos. The key points detected from both datasets showed high sensitivity (LUS = 99\\% , WUS = 74\\%) in detecting the image landmarks identified by experts. Also, on employing for classification of the given lung image into normal and abnormal classes, the proposed approach, even with no prior training, achieved an average accuracy of 97\\% and an average F1-score of 95\\% respectively on the task of co-classification with 3 fold cross-validation. With the purely unsupervised nature of the proposed approach, we expect the key point detection approach to increase the applicability of ultrasound in various examination performed in emergency and point of care.",
+    "published": "2021-09-13",
+    "updated": "2021-09-13",
+    "categories": [
+      "eess.IV",
+      "cs.CV",
+      "cs.LG"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2109.06346.pdf",
+    "abs_url": "https://arxiv.org/abs/2109.06346"
+  },
+  {
+    "id": "2210.08734",
+    "title": "How many radiographs are needed to re-train a deep learning system for object detection?",
+    "authors": [
+      "Raniere Silva",
+      "Khizar Hayat",
+      "Christopher M Riggs",
+      "Michael Doube"
+    ],
+    "abstract": "Background: Object detection in radiograph computer vision has largely benefited from progress in deep convolutional neural networks and can, for example, annotate a radiograph with a box around a knee joint or intervertebral disc. Is deep learning capable of detect small (less than 1% of the image) in radiographs? And how many radiographs do we need use when re-training a deep learning model?   Methods: We annotated 396 radiographs of left and right carpi dorsal 75 medial to palmarolateral oblique (DMPLO) projection with the location of radius, proximal row of carpal bones, distal row of carpal bones, accessory carpal bone, first carpal bone (if present), and metacarpus (metacarpal II, III, and IV). The radiographs and respective annotations were splited into sets that were used to leave-one-out cross-validation of models created using transfer learn from YOLOv5s.   Results: Models trained using 96 radiographs or more achieved precision, recall and mAP above 0.95, including for the first carpal bone, when trained for 32 epochs. The best model needed the double of epochs to learn to detect the first carpal bone compared with the other bones.   Conclusions: Free and open source state of the art object detection models based on deep learning can be re-trained for radiograph computer vision applications with 100 radiographs and achieved precision, recall and mAP above 0.95.",
+    "published": "2022-10-17",
+    "updated": "2022-10-17",
+    "categories": [
+      "eess.IV",
+      "cs.CV"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2210.08734.pdf",
+    "abs_url": "https://arxiv.org/abs/2210.08734"
+  },
+  {
+    "id": "2006.00202",
+    "title": "Attention-Guided Discriminative Region Localization and Label Distribution Learning for Bone Age Assessment",
+    "authors": [
+      "Chao Chen",
+      "Zhihong Chen",
+      "Xinyu Jin",
+      "Lanjuan Li",
+      "William Speier",
+      "Corey W. Arnold"
+    ],
+    "abstract": "Bone age assessment (BAA) is clinically important as it can be used to diagnose endocrine and metabolic disorders during child development. Existing deep learning based methods for classifying bone age use the global image as input, or exploit local information by annotating extra bounding boxes or key points. However, training with the global image underutilizes discriminative local information, while providing extra annotations is expensive and subjective. In this paper, we propose an attention-guided approach to automatically localize the discriminative regions for BAA without any extra annotations. Specifically, we first train a classification model to learn the attention maps of the discriminative regions, finding the hand region, the most discriminative region (the carpal bones), and the next most discriminative region (the metacarpal bones). Guided by those attention maps, we then crop the informative local regions from the original image and aggregate different regions for BAA. Instead of taking BAA as a general regression task, which is suboptimal due to the label ambiguity problem in the age label space, we propose using joint age distribution learning and expectation regression, which makes use of the ordinal relationship among hand images with different individual ages and leads to more robust age estimation. Extensive experiments are conducted on the RSNA pediatric bone age data set. Using no training annotations, our method achieves competitive results compared with existing state-of-the-art semi-automatic deep learning-based methods that require manual annotation. Code is available at https: //github.com/chenchao666/Bone-Age-Assessment.",
+    "published": "2020-05-30",
+    "updated": "2020-08-13",
+    "categories": [
+      "cs.CV"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2006.00202.pdf",
+    "abs_url": "https://arxiv.org/abs/2006.00202"
+  },
+  {
+    "id": "2507.07131",
+    "title": "Wrist bone segmentation in X-ray images using CT-based simulations",
+    "authors": [
+      "Youssef ElTantawy",
+      "Alexia Karantana",
+      "Xin Chen"
+    ],
+    "abstract": "Plain X-ray is one of the most common image modalities for clinical diagnosis (e.g. bone fracture, pneumonia, cancer screening, etc.). X-ray image segmentation is an essential step for many computer-aided diagnostic systems, yet it remains challenging. Deep-learning-based methods have achieved superior performance in medical image segmentation tasks but often require a large amount of high-quality annotated data for model training. Providing such an annotated dataset is not only time-consuming but also requires a high level of expertise. This is particularly challenging in wrist bone segmentation in X-rays, due to the interposition of multiple small carpal bones in the image. To overcome the data annotation issue, this work utilizes a large number of simulated X-ray images generated from Computed Tomography (CT) volumes with their corresponding 10 bone labels to train a deep learning-based model for wrist bone segmentation in real X-ray images. The proposed method was evaluated using both simulated images and real images. The method achieved Dice scores ranging from 0.80 to 0.92 for the simulated dataset generated from different view angles. Qualitative analysis of the segmentation results of the real X-ray images also demonstrated the superior performance of the trained model. The trained model and X-ray simulation code are freely available for research purposes: the link will be provided upon acceptance.",
+    "published": "2025-07-08",
+    "updated": "2025-07-08",
+    "categories": [
+      "eess.IV",
+      "cs.CV",
+      "q-bio.TO"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2507.07131.pdf",
+    "abs_url": "https://arxiv.org/abs/2507.07131"
+  }
+]

@@ -1,0 +1,64 @@
+# Research Wiki Log
+
+_Append-only timeline._
+- `2026-10-30T06:11:01Z` Wiki initialized
+- `2026-10-30T06:22:18Z` ingest_paper: ingested paper:peng2024_onestop_automated_diagnostic (arxiv:2402.05554)
+- `2026-10-30T06:22:42Z` ingest_paper: ingested paper:sim2025_diagnosis_carpal_tunnel (arxiv:)
+- `2026-10-30T06:22:42Z` ingest_paper: ingested paper:shi2026_explainable_ultrasoundbased_multimodal (arxiv:)
+- `2026-10-30T06:22:42Z` ingest_paper: ingested paper:malourries2026_automated_ultrasoundbased_severity (arxiv:)
+- `2026-10-30T06:22:42Z` ingest_paper: ingested paper:shinohara2022_using_deep_learning (arxiv:)
+- `2026-10-30T06:22:43Z` ingest_paper: ingested paper:smerilli2022_development_convolutional_neural (arxiv:)
+- `2026-10-30T06:22:43Z` ingest_paper: ingested paper:festen2021_automated_segmentation_median (arxiv:)
+- `2026-10-30T06:22:43Z` ingest_paper: ingested paper:horng2020_deepnerve_new_convolutional (arxiv:)
+- `2026-10-30T06:22:43Z` ingest_paper: ingested paper:faeghi2021_accurate_automated_diagnosis (arxiv:)
+- `2026-10-30T06:22:43Z` ingest_paper: ingested paper:bakalis2024_carpal_tunnel_syndrome (arxiv:)
+- `2026-10-30T06:22:44Z` ingest_paper: ingested paper:park2021_machine_learningbased_approach (arxiv:)
+- `2026-10-30T06:22:44Z` ingest_paper: ingested paper:wang2023_application_deep_learning (arxiv:)
+- `2026-10-30T06:23:22Z` research-lit ingested 12 papers and 11 edges for carpal tunnel syndrome ML/DL
+- `2026-10-30T06:29:30Z` ingest_paper: ingested paper:cosmo2022_deep_learning_approach (arxiv:)
+- `2026-10-30T06:29:30Z` ingest_paper: ingested paper:cosmo2021_learningbased_median_nerve (arxiv:)
+- `2026-10-30T06:29:30Z` ingest_paper: ingested paper:wang2020_mntdeepsl_median_nerve (arxiv:)
+- `2026-10-30T06:29:31Z` ingest_paper: ingested paper:tsamis2021_automatic_electrodiagnosis_carpal (arxiv:)
+- `2026-10-30T06:29:31Z` ingest_paper: ingested paper:canli2024_carpal_tunnel_syndrome (arxiv:)
+- `2026-10-30T06:29:31Z` ingest_paper: ingested paper:oten2024_use_machine_learning (arxiv:)
+- `2026-10-30T06:29:31Z` ingest_paper: ingested paper:manoochehri2025_machine_learning_applications (arxiv:)
+- `2026-10-30T06:29:32Z` ingest_paper: ingested paper:wu2023_potential_ultrasound_radiomics (arxiv:)
+- `2026-10-30T08:43:20Z` ingest_paper: ingested paper:tanaka2023_dynamic_analysis_median (arxiv:)
+- `2026-10-30T08:43:20Z` upsert_idea: added idea:idea_003 [stage=proposed outcome=pending]
+- `2026-10-30T08:43:20Z` upsert_idea: added idea:idea_001 [stage=proposed outcome=pending]
+- `2026-10-30T08:43:20Z` upsert_idea: added idea:idea_005 [stage=proposed outcome=pending]
+- `2026-10-30T08:43:21Z` upsert_idea: added idea:idea_009 [stage=proposed outcome=pending]
+- `2026-10-30T08:43:21Z` upsert_idea: added idea:idea_006 [stage=proposed outcome=pending]
+- `2026-10-30T08:43:21Z` upsert_idea: added idea:idea_004 [stage=proposed outcome=pending]
+- `2026-10-30T08:43:21Z` upsert_idea: added idea:idea_007 [stage=proposed outcome=pending]
+- `2026-10-30T08:43:22Z` upsert_idea: added idea:idea_002 [stage=proposed outcome=pending]
+- `2026-10-30T08:43:22Z` upsert_idea: added idea:idea_008 [stage=archived outcome=pending]
+- `2026-10-30T08:43:22Z` upsert_idea: added idea:idea_010 [stage=archived outcome=pending]
+- `2026-10-30T08:43:22Z` idea-creator wrote 10 ideas (8 recommended/feasible, 2 archived at Type-A gate)
+- `2026-10-30T09:05:09Z` ingest_paper: ingested paper:li2026_caring_preventing_carpal (arxiv:2608.05619)
+- `2026-10-30T09:05:09Z` ingest_paper: updated paper:peng2024_onestop_automated_diagnostic (arxiv:2402.05554)
+- `2026-10-30T09:05:09Z` ingest_paper: ingested paper:yves2026_evaluating_deep_learningbased (arxiv:2602.00763)
+- `2026-10-30T09:05:09Z` ingest_paper: ingested paper:bello2026_privacypreserving_collaborative_medical (arxiv:2603.05541)
+- `2026-10-30T09:05:09Z` ingest_paper: ingested paper:zarenia2021_unconstrained_kinematic_mri (arxiv:2111.04582)
+- `2026-10-30T09:05:09Z` ingest_paper: ingested paper:sharafi2023_development_stability_analysis (arxiv:2305.16423)
+- `2026-10-30T09:05:09Z` ingest_paper: ingested paper:tripathi2021_physics_driven_domain (arxiv:2109.06346)
+- `2026-10-30T09:05:09Z` ingest_paper: ingested paper:silva2022_how_many_radiographs (arxiv:2210.08734)
+- `2026-10-30T09:05:09Z` ingest_paper: ingested paper:chen2020_attentionguided_discriminative_region (arxiv:2006.00202)
+- `2026-10-30T09:05:09Z` ingest_paper: ingested paper:eltantawy2025_wrist_bone_segmentation (arxiv:2507.07131)
+- `2026-10-30T09:05:09Z` arxiv: ingested 10 arXiv preprints on CTS & wrist/nerve ML/DL (query: carpal tunnel syndrome machine learning deep learning)
+- `2026-10-30T09:20:04Z` ingest_paper: ingested paper:e2023_artificial_intelligence_based (arxiv:)
+- `2026-10-30T09:20:04Z` ingest_paper: ingested paper:y2024_application_machine_learning (arxiv:)
+- `2026-10-30T09:20:04Z` ingest_paper: ingested paper:k2021_automatic_electrodiagnosis_carpal (arxiv:)
+- `2026-10-30T09:20:04Z` ingest_paper: ingested paper:m2024_carpal_tunnel_syndrome (arxiv:)
+- `2026-10-30T09:20:04Z` ingest_paper: ingested paper:d2021_machine_learningbased_approach (arxiv:)
+- `2026-10-30T09:20:10Z` ingest_paper: updated paper:peng2024_onestop_automated_diagnostic (arxiv:2402.05554)
+- `2026-10-30T09:20:48Z` ingest_paper: ingested paper:sarıca2023_artificial_intelligence_based (arxiv:)
+- `2026-10-30T09:20:48Z` ingest_paper: ingested paper:yıldız2024_application_machine_learning (arxiv:)
+- `2026-10-30T09:20:48Z` ingest_paper: ingested paper:i2021_automatic_electrodiagnosis_carpal (arxiv:)
+- `2026-10-30T09:20:48Z` ingest_paper: ingested paper:mehmet2024_carpal_tunnel_syndrome (arxiv:)
+- `2026-10-30T09:20:48Z` ingest_paper: ingested paper:dougho2021_machine_learningbased_approach (arxiv:)
+- `2026-10-30T09:21:27Z` ingest_paper: ingested paper:darol2023_artificial_intelligence_based (arxiv:)
+- `2026-10-30T09:21:27Z` ingest_paper: ingested paper:yener2024_application_machine_learning (arxiv:)
+- `2026-10-30T09:21:27Z` ingest_paper: updated paper:tsamis2021_automatic_electrodiagnosis_carpal (arxiv:)
+- `2026-10-30T09:21:27Z` ingest_paper: ingested paper:yetis2024_carpal_tunnel_syndrome (arxiv:)
+- `2026-10-30T09:21:27Z` ingest_paper: updated paper:park2021_machine_learningbased_approach (arxiv:)
